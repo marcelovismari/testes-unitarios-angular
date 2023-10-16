@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "printWidth": 60,
+  "useTabs": false,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^@angular/core/testing$",
+    "^@angular/(.*)$",
+    "^rxjs$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": false,
+  "importOrderParserPlugins": ["decorators", "typescript"]
+}
